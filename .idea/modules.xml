@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/real.sport.iml" filepath="$PROJECT_DIR$/.idea/modules/real.sport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/real.sport_main.iml" filepath="$PROJECT_DIR$/.idea/modules/real.sport_main.iml" group="real.sport" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/real.sport_test.iml" filepath="$PROJECT_DIR$/.idea/modules/real.sport_test.iml" group="real.sport" />
+    </modules>
+  </component>
+</project>

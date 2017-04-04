@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-03-02T14:30:03</date>
+  <millis>1488457803174</millis>
+  <sequence>0</sequence>
+  <logger>io.vertx.core.impl.launcher.commands.VertxIsolatedDeployer</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>Succeeded in deploying verticle</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:04</date>
+  <millis>1488457804072</millis>
+  <sequence>1</sequence>
+  <logger>com.gameiom.real.sports.MainVerticle</logger>
+  <level>INFO</level>
+  <thread>16</thread>
+  <message>com.gameiom.real.sports.RealSport deploy succeeded</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:04</date>
+  <millis>1488457804292</millis>
+  <sequence>2</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>23</thread>
+  <message>Connected to game engine. Socket ID: 92ed3c6f-7a17-4c9e-84be-f536227152dd</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:04</date>
+  <millis>1488457804821</millis>
+  <sequence>3</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>26</thread>
+  <message>newRace message: {"platform":{"gameId":19,"sessionToken":"RSG-va8jz6v4ifkce1vrm3d9gqxank0d3mfw1g945cl8banrgzgbo0ehudzi0c1rupv7swfkspv47kz1cs1wupuyj56r115svstsx6ir70hij3g8c6pp1t89g8bwtk9w7vj8","username":"gameiom_test21","operatorId":1,"providerId":1,"currency":"GBP"},"publicState":{"state":"newRace"}}</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:05</date>
+  <millis>1488457805709</millis>
+  <sequence>4</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>newRace response: {"config":{"stakes":[10.0,50.0,100.0,200.0,300.0,500.0,600.0,800.0,1000.0,1500.0,2500.0,3000.0,5000.0,8000.0,10000.0,25000.0,50000.0],"defaultStake":200.0,"rtp":95.0},"platform":{"balance":9977.51},"publicState":{"traps":[{"name":"Windy Miller","trap":1,"history":[2,1,2,4,1,2],"decimal":4.5,"odds":"7/2"},{"name":"Son of a Gun","trap":2,"history":[6,2,6,2,4,3],"decimal":8.5,"odds":"15/2"},{"name":"Diva Annie","trap":3,"history":[4,4,5,1,6,4],"decimal":4.0,"odds":"3/1"},{"name":"Suck Seeds","trap":4,"history":[3,5,3,6,2,5],"decimal":7.0,"odds":"6/1"},{"name":"Skinny Dip","trap":5,"history":[1,3,4,5,3,1],"decimal":5.0,"odds":"4/1"},{"name":"Welsh Cake","trap":6,"history":[5,6,1,3,5,6],"decimal":6.0,"odds":"5/1"}],"lastResults":[5,6,2,1,4,3],"totalBet":5,"state":"bet","bets":{"wins":[{"stake":200,"eachWay":false,"submit":false,"maxWin":900,"odds":"7/2","trap":1,"bets":1,"decimal":4.5,"totalStake":200},{"stake":200,"eachWay":false,"submit":false,"maxWin":1700,"odds":"15/2","trap":2,"bets":1,"decimal":8.5,"totalStake":200},{"stake":10,"eachWay":false,"submit":true,"maxWin":40,"odds":"3/1","trap":3,"bets":1,"decimal":4.0,"totalStake":10},{"stake":200,"eachWay":false,"submit":false,"maxWin":1400,"odds":"6/1","trap":4,"bets":1,"decimal":7.0,"totalStake":200},{"stake":200,"eachWay":false,"submit":false,"maxWin":1000,"odds":"4/1","trap":5,"bets":1,"decimal":5.0,"totalStake":200},{"stake":200,"eachWay":false,"submit":false,"maxWin":1200,"odds":"5/1","trap":6,"bets":1,"decimal":6.0,"totalStake":200}],"inOutBets":[{"stake":10,"submit":true,"maxWin":18,"odds":"4/5","bets":1,"decimal":1.8,"inside":true,"totalStake":10},{"stake":200,"submit":false,"maxWin":382,"odds":"10/11","bets":1,"decimal":1.91,"inside":false,"totalStake":200}],"tricasts":[{"stake":10,"traps":[5,3,1],"submit":true,"maxWin":462,"odds":"1157/25","bets":1,"decimal":46.28,"totalStake":10,"any":false},{"stake":200,"traps":[0,0,0],"submit":false,"any":false}],"forecasts":[{"stake":10,"traps":[1,6],"submit":true,"maxWin":235,"odds":"589/25","bets":2,"decimal":23.56,"totalStake":20,"any":true},{"stake":200,"traps":[0,0],"submit":false,"any":false}],"oddEvenBets":[{"stake":200,"submit":false,"maxWin":314,"odds":"4/7","bets":1,"decimal":1.57,"totalStake":200,"odd":true},{"stake":200,"submit":false,"maxWin":450,"odds":"5/4","bets":1,"decimal":2.25,"totalStake":200,"odd":false}]},"totalStake":50,"results":[5,6,2,1,4,3]}}</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:05</date>
+  <millis>1488457805732</millis>
+  <sequence>5</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>bet message: {"platform":{"gameId":19,"sessionToken":"RSG-va8jz6v4ifkce1vrm3d9gqxank0d3mfw1g945cl8banrgzgbo0ehudzi0c1rupv7swfkspv47kz1cs1wupuyj56r115svstsx6ir70hij3g8c6pp1t89g8bwtk9w7vj8","username":"gameiom_test21"},"publicState":{"state":"bet","traps":[{"name":"Windy Miller","trap":1,"history":[2,1,2,4,1,2],"decimal":4.5,"odds":"7/2"},{"name":"Son of a Gun","trap":2,"history":[6,2,6,2,4,3],"decimal":8.5,"odds":"15/2"},{"name":"Diva Annie","trap":3,"history":[4,4,5,1,6,4],"decimal":4.0,"odds":"3/1"},{"name":"Suck Seeds","trap":4,"history":[3,5,3,6,2,5],"decimal":7.0,"odds":"6/1"},{"name":"Skinny Dip","trap":5,"history":[1,3,4,5,3,1],"decimal":5.0,"odds":"4/1"},{"name":"Welsh Cake","trap":6,"history":[5,6,1,3,5,6],"decimal":6.0,"odds":"5/1"}],"bets":{"wins":[{"trap":1,"submit":false,"stake":200,"totalStake":200,"eachWay":false,"maxWin":1000,"odds":"4/1","bets":1},{"trap":2,"submit":false,"stake":200,"totalStake":200,"eachWay":false,"maxWin":2000,"odds":"9/1","bets":1},{"trap":3,"submit":false,"stake":200,"totalStake":200,"eachWay":false,"maxWin":800,"odds":"3/1","bets":1},{"trap":4,"submit":false,"stake":200,"totalStake":200,"eachWay":false,"maxWin":600,"odds":"2/1","bets":1},{"trap":5,"submit":false,"stake":200,"totalStake":200,"eachWay":false,"maxWin":1400,"odds":"6/1","bets":1},{"trap":6,"submit":false,"stake":200,"totalStake":200,"eachWay":false,"maxWin":3000,"odds":"14/1","bets":1}],"forecasts":[{"traps":[0,0],"any":false,"submit":false,"bets":1,"stake":200}],"tricasts":[{"traps":[0,0,0],"any":false,"submit":false,"bets":1,"stake":200}],"oddEvenBets":[{"submit":false,"bets":1,"stake":200,"maxWin":345,"odds":"8/11","odd":true,"totalStake":200},{"submit":false,"bets":1,"stake":200,"maxWin":400,"odds":"EVENS","odd":false,"totalStake":200}],"inOutBets":[{"submit":false,"bets":1,"stake":200,"maxWin":366,"odds":"5/6","inside":true,"totalStake":200},{"submit":false,"bets":1,"stake":200,"maxWin":366,"odds":"5/6","inside":false,"totalStake":200}]}}}</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:06</date>
+  <millis>1488457806290</millis>
+  <sequence>6</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>28</thread>
+  <message>bet response: {"config":{"stakes":[10.0,50.0,100.0,200.0,300.0,500.0,600.0,800.0,1000.0,1500.0,2500.0,3000.0,5000.0,8000.0,10000.0,25000.0,50000.0],"defaultStake":200.0,"rtp":95.0},"platform":{"balance":9977.51},"publicState":{"traps":[{"name":"Windy Miller","trap":1,"history":[2,1,2,4,1,2],"decimal":4.5,"odds":"7/2"},{"name":"Son of a Gun","trap":2,"history":[6,2,6,2,4,3],"decimal":8.5,"odds":"15/2"},{"name":"Diva Annie","trap":3,"history":[4,4,5,1,6,4],"decimal":4.0,"odds":"3/1"},{"name":"Suck Seeds","trap":4,"history":[3,5,3,6,2,5],"decimal":7.0,"odds":"6/1"},{"name":"Skinny Dip","trap":5,"history":[1,3,4,5,3,1],"decimal":5.0,"odds":"4/1"},{"name":"Welsh Cake","trap":6,"history":[5,6,1,3,5,6],"decimal":6.0,"odds":"5/1"}],"totalBet":0,"state":"bet","bets":{"wins":[{"stake":200,"eachWay":false,"submit":false,"maxWin":900,"odds":"7/2","trap":1,"bets":1,"decimal":4.5,"totalStake":200},{"stake":200,"eachWay":false,"submit":false,"maxWin":1700,"odds":"15/2","trap":2,"bets":1,"decimal":8.5,"totalStake":200},{"stake":200,"eachWay":false,"submit":false,"maxWin":800,"odds":"3/1","trap":3,"bets":1,"decimal":4.0,"totalStake":200},{"stake":200,"eachWay":false,"submit":false,"maxWin":1400,"odds":"6/1","trap":4,"bets":1,"decimal":7.0,"totalStake":200},{"stake":200,"eachWay":false,"submit":false,"maxWin":1000,"odds":"4/1","trap":5,"bets":1,"decimal":5.0,"totalStake":200},{"stake":200,"eachWay":false,"submit":false,"maxWin":1200,"odds":"5/1","trap":6,"bets":1,"decimal":6.0,"totalStake":200}],"inOutBets":[{"stake":200,"submit":false,"maxWin":360,"odds":"4/5","bets":1,"decimal":1.8,"inside":true,"totalStake":200},{"stake":200,"submit":false,"maxWin":382,"odds":"10/11","bets":1,"decimal":1.91,"inside":false,"totalStake":200}],"tricasts":[{"stake":200,"traps":[0,0,0],"bets":1,"submit":false,"any":false}],"forecasts":[{"stake":200,"traps":[0,0],"bets":1,"submit":false,"any":false}],"oddEvenBets":[{"stake":200,"submit":false,"maxWin":314,"odds":"4/7","bets":1,"decimal":1.57,"totalStake":200,"odd":true},{"stake":200,"submit":false,"maxWin":450,"odds":"5/4","bets":1,"decimal":2.25,"totalStake":200,"odd":false}]},"totalStake":0}}</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:06</date>
+  <millis>1488457806291</millis>
+  <sequence>7</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>28</thread>
+  <message>User game session is started.</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:06</date>
+  <millis>1488457806294</millis>
+  <sequence>8</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>28</thread>
+  <message>bet with stake message: {"platform":{"gameId":19,"sessionToken":"RSG-va8jz6v4ifkce1vrm3d9gqxank0d3mfw1g945cl8banrgzgbo0ehudzi0c1rupv7swfkspv47kz1cs1wupuyj56r115svstsx6ir70hij3g8c6pp1t89g8bwtk9w7vj8","username":"gameiom_test21"},"publicState":{"bets":{"wins":[{"trap":1,"submit":false,"stake":200,"totalStake":200,"eachWay":false,"maxWin":1000,"odds":"4/1","bets":1,"$$hashKey":"object:49"},{"trap":2,"submit":false,"stake":200,"totalStake":200,"eachWay":false,"maxWin":4200,"odds":"20/1","bets":1,"$$hashKey":"object:50"},{"trap":3,"submit":true,"stake":10,"totalStake":10,"eachWay":false,"maxWin":20,"odds":"EVENS","bets":1,"$$hashKey":"object:51"},{"trap":4,"submit":false,"stake":200,"totalStake":200,"eachWay":false,"maxWin":2600,"odds":"12/1","bets":1,"$$hashKey":"object:52"},{"trap":5,"submit":false,"stake":200,"totalStake":200,"eachWay":false,"maxWin":1200,"odds":"5/1","bets":1,"$$hashKey":"object:53"},{"trap":6,"submit":false,"stake":200,"totalStake":200,"eachWay":false,"maxWin":1800,"odds":"8/1","bets":1,"$$hashKey":"object:54"}],"forecasts":[{"traps":[1,6],"any":true,"submit":true,"bets":2,"stake":10,"maxWin":432,"odds":"4329/100","totalStake":20,"tempBets":2},{"traps":[0,0],"any":false,"submit":false,"stake":200}],"tricasts":[{"traps":[5,3,1],"any":false,"submit":true,"bets":1,"stake":10,"maxWin":217,"odds":"2177/100","totalStake":10,"tempBets":1},{"traps":[0,0,0],"any":false,"submit":false,"stake":200}],"oddEvenBets":[{"submit":false,"bets":1,"stake":200,"maxWin":240,"odds":"1/5","odd":true,"totalStake":200},{"submit":false,"bets":1,"stake":200,"maxWin":800,"odds":"3/1","odd":false,"totalStake":200}],"inOutBets":[{"submit":true,"bets":1,"stake":10,"maxWin":1400,"odds":"2/5","inside":true,"totalStake":10},{"submit":false,"bets":1,"stake":200,"maxWin":550,"odds":"7/4","inside":false,"totalStake":200}]},"state":"bet","traps":[{"name":"Windy Miller","trap":1,"history":[2,1,2,4,1,2],"decimal":4.5,"odds":"7/2"},{"name":"Son of a Gun","trap":2,"history":[6,2,6,2,4,3],"decimal":8.5,"odds":"15/2"},{"name":"Diva Annie","trap":3,"history":[4,4,5,1,6,4],"decimal":4.0,"odds":"3/1"},{"name":"Suck Seeds","trap":4,"history":[3,5,3,6,2,5],"decimal":7.0,"odds":"6/1"},{"name":"Skinny Dip","trap":5,"history":[1,3,4,5,3,1],"decimal":5.0,"odds":"4/1"},{"name":"Welsh Cake","trap":6,"history":[5,6,1,3,5,6],"decimal":6.0,"odds":"5/1"}]}}</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:06</date>
+  <millis>1488457806855</millis>
+  <sequence>9</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>29</thread>
+  <message>bet with stake response: {"config":{"stakes":[10.0,50.0,100.0,200.0,300.0,500.0,600.0,800.0,1000.0,1500.0,2500.0,3000.0,5000.0,8000.0,10000.0,25000.0,50000.0],"defaultStake":200.0,"rtp":95.0},"platform":{"balance":9977.51},"publicState":{"traps":[{"name":"Windy Miller","trap":1,"history":[2,1,2,4,1,2],"decimal":4.5,"odds":"7/2"},{"name":"Son of a Gun","trap":2,"history":[6,2,6,2,4,3],"decimal":8.5,"odds":"15/2"},{"name":"Diva Annie","trap":3,"history":[4,4,5,1,6,4],"decimal":4.0,"odds":"3/1"},{"name":"Suck Seeds","trap":4,"history":[3,5,3,6,2,5],"decimal":7.0,"odds":"6/1"},{"name":"Skinny Dip","trap":5,"history":[1,3,4,5,3,1],"decimal":5.0,"odds":"4/1"},{"name":"Welsh Cake","trap":6,"history":[5,6,1,3,5,6],"decimal":6.0,"odds":"5/1"}],"totalBet":5,"state":"bet","bets":{"wins":[{"stake":200,"eachWay":false,"submit":false,"maxWin":900,"odds":"7/2","trap":1,"bets":1,"decimal":4.5,"totalStake":200},{"stake":200,"eachWay":false,"submit":false,"maxWin":1700,"odds":"15/2","trap":2,"bets":1,"decimal":8.5,"totalStake":200},{"stake":10,"eachWay":false,"submit":true,"maxWin":40,"odds":"3/1","trap":3,"bets":1,"decimal":4.0,"totalStake":10},{"stake":200,"eachWay":false,"submit":false,"maxWin":1400,"odds":"6/1","trap":4,"bets":1,"decimal":7.0,"totalStake":200},{"stake":200,"eachWay":false,"submit":false,"maxWin":1000,"odds":"4/1","trap":5,"bets":1,"decimal":5.0,"totalStake":200},{"stake":200,"eachWay":false,"submit":false,"maxWin":1200,"odds":"5/1","trap":6,"bets":1,"decimal":6.0,"totalStake":200}],"inOutBets":[{"stake":10,"submit":true,"maxWin":18,"odds":"4/5","bets":1,"decimal":1.8,"inside":true,"totalStake":10},{"stake":200,"submit":false,"maxWin":382,"odds":"10/11","bets":1,"decimal":1.91,"inside":false,"totalStake":200}],"tricasts":[{"stake":10,"traps":[5,3,1],"submit":true,"maxWin":462,"odds":"1157/25","bets":1,"decimal":46.28,"totalStake":10,"any":false},{"stake":200,"traps":[0,0,0],"submit":false,"any":false}],"forecasts":[{"stake":10,"traps":[1,6],"submit":true,"maxWin":235,"odds":"589/25","bets":2,"decimal":23.56,"totalStake":20,"any":true},{"stake":200,"traps":[0,0],"submit":false,"any":false}],"oddEvenBets":[{"stake":200,"submit":false,"maxWin":314,"odds":"4/7","bets":1,"decimal":1.57,"totalStake":200,"odd":true},{"stake":200,"submit":false,"maxWin":450,"odds":"5/4","bets":1,"decimal":2.25,"totalStake":200,"odd":false}]},"totalStake":50}}</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:06</date>
+  <millis>1488457806857</millis>
+  <sequence>10</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>29</thread>
+  <message>startRace message:   {"platform":{"gameId":19,"sessionToken":"RSG-va8jz6v4ifkce1vrm3d9gqxank0d3mfw1g945cl8banrgzgbo0ehudzi0c1rupv7swfkspv47kz1cs1wupuyj56r115svstsx6ir70hij3g8c6pp1t89g8bwtk9w7vj8","username":"gameiom_test21"},"publicState":{"state":"startRace"}}</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:10</date>
+  <millis>1488457810646</millis>
+  <sequence>11</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>30</thread>
+  <message>startRaceResponse response:  {"config":{"stakes":[10.0,50.0,100.0,200.0,300.0,500.0,600.0,800.0,1000.0,1500.0,2500.0,3000.0,5000.0,8000.0,10000.0,25000.0,50000.0],"defaultStake":200.0,"rtp":95.0},"platform":{"balance":9977.01},"publicState":{"state":"startRace","video":{"sixthPlace":2,"fifthPlace":5,"firstPlace":6,"thirdPlace":3,"fourthPlace":1,"cdnUrl":"https://cdn.gameiom.com/gameiom/realdogs/package1/RDGBGR814CVC1098-6-4-3.mp4","secondPlace":4,"raceLength":3},"bets":{"tricasts":[{"stake":100,"traps":[6,4,3],"submit":false,"maxWin":11296,"odds":"2824/25","bets":1,"decimal":112.96,"totalStake":100,"any":false}],"forecasts":[{"stake":100,"traps":[6,4],"submit":false,"maxWin":3665,"odds":"733/20","bets":1,"decimal":36.65,"totalStake":100,"any":false}]},"results":[6,4,3,1,5,2]}}</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:10</date>
+  <millis>1488457810647</millis>
+  <sequence>12</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>30</thread>
+  <message>finishRace message:   {"platform":{"gameId":19,"sessionToken":"RSG-va8jz6v4ifkce1vrm3d9gqxank0d3mfw1g945cl8banrgzgbo0ehudzi0c1rupv7swfkspv47kz1cs1wupuyj56r115svstsx6ir70hij3g8c6pp1t89g8bwtk9w7vj8","username":"gameiom_test21"},"publicState":{"state":"finishRace"}}</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:11</date>
+  <millis>1488457811686</millis>
+  <sequence>13</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>31</thread>
+  <message>finishRaceResponce responce:    {"config":{"stakes":[10.0,50.0,100.0,200.0,300.0,500.0,600.0,800.0,1000.0,1500.0,2500.0,3000.0,5000.0,8000.0,10000.0,25000.0,50000.0],"defaultStake":200.0,"rtp":95.0},"platform":{"balance":9977.01},"publicState":{"lastResults":[6,4,3,1,5,2],"state":"finishRace","bets":{"wins":[{"stake":200,"eachWay":false,"submit":false,"maxWin":900,"odds":"7/2","trap":1,"bets":1,"decimal":4.5,"totalStake":200,"win":0},{"stake":200,"eachWay":false,"submit":false,"maxWin":1700,"odds":"15/2","trap":2,"bets":1,"decimal":8.5,"totalStake":200,"win":0},{"stake":10,"eachWay":false,"submit":true,"maxWin":40,"odds":"3/1","trap":3,"bets":1,"decimal":4.0,"totalStake":10,"win":0},{"stake":200,"eachWay":false,"submit":false,"maxWin":1400,"odds":"6/1","trap":4,"bets":1,"decimal":7.0,"totalStake":200,"win":0},{"stake":200,"eachWay":false,"submit":false,"maxWin":1000,"odds":"4/1","trap":5,"bets":1,"decimal":5.0,"totalStake":200,"win":0},{"stake":200,"eachWay":false,"submit":false,"maxWin":1200,"odds":"5/1","trap":6,"bets":1,"decimal":6.0,"totalStake":200,"win":0}],"inOutBets":[{"stake":10,"submit":true,"maxWin":18,"odds":"4/5","bets":1,"decimal":1.8,"inside":true,"totalStake":10,"win":0},{"stake":200,"submit":false,"maxWin":382,"odds":"10/11","bets":1,"decimal":1.91,"inside":false,"totalStake":200,"win":382}],"tricasts":[{"stake":10,"traps":[5,3,1],"submit":true,"maxWin":462,"odds":"1157/25","bets":1,"decimal":46.28,"totalStake":10,"win":0,"any":false},{"stake":200,"traps":[0,0,0],"submit":false,"any":false}],"forecasts":[{"stake":10,"traps":[1,6],"submit":true,"maxWin":235,"odds":"589/25","bets":2,"decimal":23.56,"totalStake":20,"win":0,"any":true},{"stake":200,"traps":[0,0],"submit":false,"any":false}],"oddEvenBets":[{"stake":200,"submit":false,"maxWin":314,"odds":"4/7","bets":1,"decimal":1.57,"totalStake":200,"win":0,"odd":true},{"stake":200,"submit":false,"maxWin":450,"odds":"5/4","bets":1,"decimal":2.25,"totalStake":200,"win":450,"odd":false}]},"results":[6,4,3,1,5,2],"totalWin":0}}</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:11</date>
+  <millis>1488457811688</millis>
+  <sequence>14</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>31</thread>
+  <message>completeRace message:   {"platform":{"gameId":19,"sessionToken":"RSG-va8jz6v4ifkce1vrm3d9gqxank0d3mfw1g945cl8banrgzgbo0ehudzi0c1rupv7swfkspv47kz1cs1wupuyj56r115svstsx6ir70hij3g8c6pp1t89g8bwtk9w7vj8","username":"gameiom_test21"},"publicState":{"state":"completeRace"}}</message>
+</record>
+<record>
+  <date>2017-03-02T14:30:12</date>
+  <millis>1488457812525</millis>
+  <sequence>15</sequence>
+  <logger>com.gameiom.real.sports.RealSport</logger>
+  <level>INFO</level>
+  <thread>32</thread>
+  <message>completeRaceResponse response:   {"config":{"stakes":[10.0,50.0,100.0,200.0,300.0,500.0,600.0,800.0,1000.0,1500.0,2500.0,3000.0,5000.0,8000.0,10000.0,25000.0,50000.0],"defaultStake":200.0,"rtp":95.0},"platform":{"balance":9977.01},"publicState":{"state":"completeRace"}}</message>
+</record>
